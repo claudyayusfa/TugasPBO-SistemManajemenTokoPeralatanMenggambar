@@ -9,11 +9,7 @@
 - **Bahasa Pemrograman:** Java
 
 ## 1. Penjelasan Studi Kasus
-Program yang dibuat oleh saya adalah Sistem Manajemen Toko Peralatan Menggambar berbasis Command Line Interface atau CLI. Program ini digunakan untuk menampilkan informasi mengenai peralatan menggambar yang tersedia pada sebuah toko. Peralatan menggambar dibagi menjadi dua kategori, yaitu:
-
-a. **Alat Gambar Konvensional**
-
-b. **Alat Gambar Digital**
+Program yang dibuat oleh saya adalah Sistem Manajemen Toko Peralatan Menggambar berbasis Command Line Interface atau CLI. Program ini digunakan untuk menampilkan informasi mengenai peralatan menggambar yang tersedia pada sebuah toko. Peralatan menggambar dibagi menjadi dua kategori, yaitu Alat Gambar Konvensional dan Alat Gambar Digital.
 
 Setiap alat gambar memiliki informasi umum berupa kode barang, nama barang, harga barang, dan stok barang.
 
