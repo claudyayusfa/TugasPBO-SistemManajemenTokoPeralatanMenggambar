@@ -1,4 +1,4 @@
-🎨 # Sistem Manajemen Toko Peralatan Menggambar 
+# Sistem Manajemen Toko Peralatan Menggambar 🎨 
 
 ## Identitas Mahasiswa
 - **Nama   :** Claudya Yusfa Ariyani
