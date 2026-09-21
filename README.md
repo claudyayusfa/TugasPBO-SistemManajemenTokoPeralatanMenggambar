@@ -100,21 +100,34 @@ Dengan penerapan inheritance tersebut, informasi umum tidak perlu dibuat ulang p
 
 ## 4. Running Program
 
-- Menu Utama Daftar Peralatan Gambar
+Program dijalankan melalui Command Line Interface (CLI). Pada saat program dijalankan, pengguna akan menampilkan menu utama yang terdiri dari tiga pilihan, yaitu melihat alat gambar konvensional, melihat alat gambar digital, dan keluar dari program.
+
+### a. Menu Utama Daftar Peralatan Gambar
+
+Pada menu utama, program menampilkan pilihan menu yang dapat digunakan oleh pengguna. Pengguna dapat memilih menu dengan memasukkan angka 1 sampai 3.
 
   <img width="538" height="298" alt="image" src="https://github.com/user-attachments/assets/c8ae189e-f111-4105-9304-1dd2cb958847" />
 
-- Memilih Menu 1 yaitu Lihat Alat Gambar Konvensional
+### b. Memilih Menu 1 yaitu Lihat Alat Gambar Konvensional
+
+Jika pengguna memilih menu **1**, program akan menampilkan data alat gambar konvensional yang tersedia.
 
   <img width="604" height="1020" alt="image" src="https://github.com/user-attachments/assets/a525afd3-33ad-493c-9624-bdf55454ee78" />
 
-- Memilih Menu 2 yaitu Lihat Alat Gambar Digital
+### c. Memilih Menu 2 yaitu Lihat Alat Gambar Digital
+
+Jika pengguna memilih menu **2**, program akan menampilkan data alat gambar digital yang tersedia.
 
   <img width="536" height="1026" alt="image" src="https://github.com/user-attachments/assets/162f3217-a1d5-4fcc-936f-4dabb302e5c2" />
 
-- Memilih Menu 3 yaitu Keluar
+### d. Memilih Menu 3 yaitu Keluar
+
+Jika pengguna memilih menu **3**, program akan menampilkan pesan bahwa program telah selesai dan program akan berhenti.
+
+Pilihan ini digunakan sebagai kondisi untuk menghentikan perulangan menu sehingga pengguna dapat keluar dari program dengan benar.
 
   <img width="1038" height="582" alt="image" src="https://github.com/user-attachments/assets/5595d881-7c83-42c1-abbf-b896168ee012" />
+
 
   
 
