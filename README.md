@@ -1,8 +1,8 @@
 # Sistem Manajemen Toko Peralatan Menggambar 🎨 
 
 ## Identitas Mahasiswa
-- **Nama   :** Claudya Yusfa Ariyani
-- **NIM    :** 2509116043
+- **Nama:** Claudya Yusfa Ariyani
+- **NIM:** 2509116043
 - **Program Studi:** Sistem Informasi
 - **Mata Kuliah:** Pemrograman Berorientasi Objek
 - **Dosen Pengampu:** Dr. Akhmad Irsyad S.T., M.Kom.
@@ -43,3 +43,30 @@ Program menyediakan menu CLI yang dapat memudahkan pengguna untuk melihat sesuai
 3. Keluar dari Program
 
 Program dapat menangani input yang tidak sesuai. Jika pengguna memasukkan huruf ketika program meminta pilihan menu, program akan menampilkan pesan bahwa input harus berupa angka dan kembali ke menu utama. 
+
+## 2. Diagram Kelas/Hierarki Class
+
+Hierarki class pada program dapat digambarkan sebagai berikut:
+
+<img width="1404" height="1044" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/bac3776f-e61f-4b34-88b5-c1ac0a09d41d" />
+
+### Penjelasan Class
+
+- AlatGambar
+  
+  Merupakan superclass yang menyimpan atribut umum yang dimiliki oleh semua alat gambar yaitu kode, nama, harga, dan stok.
+
+  Class ini juga memiliki constructor untuk menginisialisasi data dan method tampilkanInfoAlatGambar() untuk menampilkan informasi umum alat gambar.
+
+- AlatGambarKonvensional
+
+  Merupakan subclass dari AlatGambar. Class ini memiliki atribut tambahan yaitu jenis dan bahan.
+
+- AlatGambarDigital
+
+  Merupakan subclass dari AlatGambar. Class ini memiliki atribut tambahan yaitu koneksi dan tipe.
+
+## 3. Penerapan Inheritance
+
+Inheritance diterapkan dengan membuat class AlatGambar sebagai superclass dan dua class sebagai subclass yaitu AlatGambarKonvensional dan AlatGambarDigital.
+
