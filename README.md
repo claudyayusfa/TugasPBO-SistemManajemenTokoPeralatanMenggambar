@@ -20,7 +20,7 @@ Selain informasi umum tersebut, setiap kategori memiliki informasi khusus.
 Memiliki informasi tambahan yaitu jenis barang dan bahan barang. Contoh datanya adalah:
 
 - Pensil 2B
-- Pensil Warna Fabel Castell (Isi 24 pcs)
+- Pensil Warna Faber Castell (Isi 24 pcs)
 - Drawing Pen
 - Kuas Lukis
 - Cat Air
@@ -48,7 +48,7 @@ Program dapat menangani input yang tidak sesuai. Jika pengguna memasukkan huruf 
 
 Hierarki class pada program dapat digambarkan sebagai berikut:
 
-<img width="1404" height="1044" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/bac3776f-e61f-4b34-88b5-c1ac0a09d41d" />
+<img width="1844" height="1684" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/a8704ca0-15a0-4d51-a570-bd2bdfa62af1" />
 
 ### Penjelasan Class
 
@@ -70,22 +70,33 @@ Hierarki class pada program dapat digambarkan sebagai berikut:
 
 Inheritance diterapkan dengan membuat class AlatGambar sebagai superclass dan dua class sebagai subclass yaitu AlatGambarKonvensional dan AlatGambarDigital.
 
-- Superclass AlatGambar memiliki atribut umum:
+### a. Superclass AlatGambar
+Class AlatGambar digunakan sebagai superclass karena memiliki informasi yang bersifat umum dan dapat dimiliki oleh semua jenis alat gambar.
   
   <img width="450" height="186" alt="image" src="https://github.com/user-attachments/assets/02314882-285e-4f08-be41-35b495030080" />
 
-- Subclass AlatGambarKonvensional
+### b. Subclass AlatGambarKonvensional
+Class AlatGmabarKonvensional merupakan subclass dari AlatGambar.
 
   <img width="1758" height="324" alt="image" src="https://github.com/user-attachments/assets/d8f38366-e5ca-448a-8250-14f490ea7bbb" />
 
-- Subclass AlatGambarDigital
+### c. Subclass AlatGambarDigital
+Class AlatGambarDigital juga merupakan subclass dari AlatGambar.
 
   <img width="1742" height="324" alt="image" src="https://github.com/user-attachments/assets/a335763a-4eca-467d-b414-1c177d7c5518" />
 
-- Penggunaan Method Superclass
-  Keyword super digunakan untuk memanggil method dari superclass.
+### d. Penggunaan super pada Method
+  Selain digunakan untuk memanggil constructor superclass, keyword super juga digunakan untuk memanggil method yang terdapat pada superclass.
 
   <img width="1010" height="260" alt="image" src="https://github.com/user-attachments/assets/d42cd532-4e21-4add-a82c-cad52852ab19" />
+
+ ### e. Ringkasan Penerapan Inheritance
+  - AlatGambar menyimpan data yang umum untuk semua alat gambar.
+  - AlatGambarKonvensional mewarisi data umum dari AlatGambar dan menambahkan jenis dan bahan.
+  - AlatGambarDigital mewarisi data umum dari AlatGambar dan menambahkan koneksi dan tipe.
+  - Keyword extends digunakan untuk membuat hubungan inheritance.
+  - Keyword super digunakan untuk memanggil constructor dan method dari superclass.
+Dengan penerapan inheritance tersebut, informasi umum tidak perlu dibuat ulang pada setiap class karena dapat diwariskan dari superclass AlatGambar.
 
 ## 4. Running Program
 
