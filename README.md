@@ -103,6 +103,8 @@ Inheritance diterapkan dengan membuat class AlatGambar sebagai superclass dan du
 
 - Memilih Menu 3 yaitu Keluar
 
+  <img width="1038" height="582" alt="image" src="https://github.com/user-attachments/assets/5595d881-7c83-42c1-abbf-b896168ee012" />
+
   
 
 
