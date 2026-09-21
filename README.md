@@ -70,3 +70,39 @@ Hierarki class pada program dapat digambarkan sebagai berikut:
 
 Inheritance diterapkan dengan membuat class AlatGambar sebagai superclass dan dua class sebagai subclass yaitu AlatGambarKonvensional dan AlatGambarDigital.
 
+- Superclass AlatGambar memiliki atribut umum:
+  
+  <img width="450" height="186" alt="image" src="https://github.com/user-attachments/assets/02314882-285e-4f08-be41-35b495030080" />
+
+- Subclass AlatGambarKonvensional
+
+  <img width="1758" height="324" alt="image" src="https://github.com/user-attachments/assets/d8f38366-e5ca-448a-8250-14f490ea7bbb" />
+
+- Subclass AlatGambarDigital
+
+  <img width="1742" height="324" alt="image" src="https://github.com/user-attachments/assets/a335763a-4eca-467d-b414-1c177d7c5518" />
+
+- Penggunaan Method Superclass
+  Keyword super digunakan untuk memanggil method dari superclass.
+
+  <img width="1010" height="260" alt="image" src="https://github.com/user-attachments/assets/d42cd532-4e21-4add-a82c-cad52852ab19" />
+
+## 4. Running Program
+
+- Menu Utama Daftar Peralatan Gambar
+
+  <img width="538" height="298" alt="image" src="https://github.com/user-attachments/assets/c8ae189e-f111-4105-9304-1dd2cb958847" />
+
+- Memilih Menu 1 yaitu Lihat Alat Gambar Konvensional
+
+  <img width="604" height="1020" alt="image" src="https://github.com/user-attachments/assets/a525afd3-33ad-493c-9624-bdf55454ee78" />
+
+- Memilih Menu 2 yaitu Lihat Alat Gambar Digital
+
+  <img width="536" height="1026" alt="image" src="https://github.com/user-attachments/assets/162f3217-a1d5-4fcc-936f-4dabb302e5c2" />
+
+- Memilih Menu 3 yaitu Keluar
+
+  
+
+
